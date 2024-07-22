@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("/image/banking2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+div{
+    height: 400px;
+    width: 350px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(58, 58, 81);
+    box-shadow: 3px 3px 10px black;
+}
+h3{
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.inp{
+	height: 30px;
+	width: 240px;
+	text-align: center;
+    margin-top: 4px;
+	margin-bottom: 12px;
+	background: transparent;
+}
+.inp:hover{
+	background: white;
+}
+label{
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+}
+.inp1{
+    height: 30px;
+	width: 125px;
+    background-color:green;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: rgb(164, 184, 211);
+}
+.inp1:hover{
+	background: transparent;
+}
+a{
+    font-style: italic;
+    font-size: 17px;
+    margin-left: 12px;
+}

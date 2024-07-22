@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Credit</title>
+<style>
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("/image/nexthome.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+div{
+    height: 300px;
+    width: 350px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(58, 58, 81);
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+    text-shadow: 4px 0px white;
+}
+.inp{
+	height: 30px;
+	width: 240px;
+	text-align: center;
+	background: transparent;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.inp:hover{
+	background: white;
+}
+label{
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+}
+.inp1{
+    height: 30px;
+	width: 240px;
+    background-color: #4CAF50;
+    color: rgb(164, 184, 211);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.inp1:hover{
+	background: transparent;
+}
+</style>
+</head>
+<body>
+<div>
+    <center>
+        <form action="transaction2">
+            <h3>Credit Amount</h3>
+            <label>Enter Your Account Number</label><br>
+            <input class="inp" placeholder="Enter Your Account Number" name="acctNo" required><br>
+            <input class="inp" placeholder="Enter the Amount" name="amount" required><br>
+            <input class="inp1" type="submit" value="SUBMIT">
+        </form>
+    </center>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+*{
+	padding: 0px;
+    margin: 0px;
+}
+    body{
+        background-image: url("/image/bankinghome.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 850px;
+    }
+    p{
+        color: white;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    span,h2{
+        color: coral;
+    }
+    .dash{
+        height: 80px;
+        width: 100%;
+        background-color: rgba(0, 0, 0,0.6);   
+    }
+    h2{
+        text-align: center;
+        text-decoration: overline;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .name{
+        height: 30px;
+        width: 800px;
+        position: relative;
+        left: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+    }
+    #a1{
+        margin-left: 40px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+    #a1:hover{
+        text-decoration: underline;
+        text-decoration-color: coral;
+    }
+    h1{
+        color: white;
+        margin-top: 500px;
+        margin-left: 1050px;
+        font-size: 30px;
+        font-style: italic;
+    }
+    a{
+        color: coral;
+    }

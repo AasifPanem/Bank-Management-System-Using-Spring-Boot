@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+	<h1 style="font-family: cursive;text-transform:uppercase;text-decoration: underline;color: red;">Statements</h1>
+	<p th:text="${msgg}"></p>
+	<table border="1">
+	<tr>
+		<th>Transaction Id</th>
+		<th>Transaction Date</th>
+		<th>Transaction Amount</th>
+		<th>Transaction Type</th>
+	</tr>
+	<tr th:each="stmt:${listofstatements}">
+	<td th:text="${stmt.transactionid}"></td>
+	<td th:text="${stmt.transactiondate}"></td>
+	<td th:text="${stmt.transactionamount}"></td>
+	<td th:text="${stmt.transactiontype}"></td>
+	</tr>
+	</table>
+</center>
+</body>
+</html>

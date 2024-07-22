@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("/image/banking2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+div{
+    height: 500px;
+    width: 700px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(58, 58, 81);
+    box-shadow: 3px 3px 10px black;
+}
+h3{
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table{
+    margin-left: 50px;
+}
+input{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.inp{
+	height: 30px;
+	width: 255px;
+	text-align: center;
+	margin-bottom: 10px;
+    border-radius: 5px;
+}
+#gene{
+    position: relative;
+    left: 32px;
+    top: -3px;
+    font-style: oblique;
+    color: white;
+}
+#dob{
+    position: relative;
+    left: 35px;
+    top: -3px;
+    font-style: oblique;
+    color: white;
+}
+.inp1{
+    height: 30px;
+	width: 550px;
+    background-image: url("/image/banking2.jpg");
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+}
+.inp1:hover{
+	background: transparent;
+}
+.inp2{
+    height: 30px;
+    width: 255px;
+    background-color:green;
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+}
+button{
+    height: 30px;
+    width: 255px;
+    background-color:green;
+    position: relative;
+    left: 370px;
+    top: -60px; 
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link href="/style.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <h3>Create an Account</h3>
+    <form action="registrationpage" method="post">	
+        <table>
+            <tr>
+                <td><input class="inp" placeholder="Enter Your FirstName" id="first" name="firstname"><br></td>
+                <td><input class="inp" placeholder="Enter Your LastName" id="last" name="lastname"><br></td>
+            </tr>
+            <tr>
+                <td><input class="inp" type="number" placeholder="Enter Your Age" name="age"><br></td>
+                <td><input class="inp" type="email" placeholder="Enter Your EmailID" name="emailid"><br></td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="dob">Enter Your DOB</label><br>
+                    <input class="inp" type="date" id="" placeholder="Enter Date of Birth" name="dateofbirth"><br>
+                </td>
+                <td>
+                    <label id="gene">Enter Your Gender</label><br>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Others">Others
+                </td>
+            </tr>
+            <tr>
+                <td><input class="inp" type="number" placeholder="Enter Your Aadhar" name="aadhar"><br></td>
+                <td><input class="inp" placeholder="Enter Your Address" name="address"><br></td>
+            </tr>
+            <tr>
+                <td><input class="inp" placeholder="Enter Your Mobile Number" name="mobilenumber"><br></td>
+                <td><input class="inp" type="password" placeholder="Enter Your Password" name="password"><br></td>
+            </tr>
+        </table>
+        <input class="inp1" type="submit" value="Registration"><br>
+        <input class="inp2" type="reset" value="Cancel">
+    </form>
+    <a href="login"><button>SIGN IN</button></a>
+</div>
+</body>
+</html>
